@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/strange/Desktop/dadda_mul_16bit/dadda_mul_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="dadda_mul" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/dadda_mul/A" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A[15:0]</obj_property>
+      <obj_property name="ObjectShortName">A[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dadda_mul/B" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">B[15:0]</obj_property>
+      <obj_property name="ObjectShortName">B[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dadda_mul/C" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">C[32:0]</obj_property>
+      <obj_property name="ObjectShortName">C[32:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dadda_mul/temp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">temp[15:0,15:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[15:0,15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dadda_mul/AB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">AB[15:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">AB[15:0,31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dadda_mul/temp_var" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">temp_var[15:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_var[15:0,31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dadda_mul/w1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w1[5:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">w1[5:0,31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dadda_mul/w2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w2[1:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">w2[1:0,31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dadda_mul/w3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w3[1:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">w3[1:0,31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
